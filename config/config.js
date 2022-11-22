@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb')
 
-const url = 'mongodb+srv://omocareer:omocareer@omocareer.vctw0cw.mongodb.net'
+const url = 'process.env.MONGODB_ATLAS'
 const dbName = 'testAseanFT'
 let dbConnection
 
