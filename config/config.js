@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb')
 
-const url = 'process.env.MONGODB_ATLAS'
+const url = process.env.MONGODB_ATLAS
 const dbName = 'testAseanFT'
 let dbConnection
 
